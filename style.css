@@ -1,0 +1,31 @@
+@import url("https://fonts.cdnfonts.com/css/grotesk");
+.grid > div {
+  grid-row: var(--r);
+  grid-column: var(--c);
+}
+
+@font-face {
+  font-family: "Novecento";
+  src: url("./Novecento\ Bold.ttf") format("truetype");
+}
+
+/* Optional: Add a custom utility class */
+.novecento {
+  font-family: "Novecento", sans-serif;
+}
+
+.title {
+  font-size: 8vw;
+  font-weight: 800;
+}
+
+.title sup {
+  vertical-align: 90%;
+  font-size: 4vw;
+  font-weight: 700;
+  margin-left: -0.5em;
+
+}
+.footer {
+  font-family: "Grotesk", sans-serif;
+}
